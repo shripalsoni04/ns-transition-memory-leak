@@ -16,6 +16,7 @@ export class Page2Component{
     }
 
     goBack(){
+        //GC(); // Calling explicit GC has no impact.
         this.routerExtensions.backToPreviousPage();
     }
 }
